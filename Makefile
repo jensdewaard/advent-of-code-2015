@@ -1,5 +1,5 @@
-main: main.hs
-	ghc main.hs
+main: *.hs
+	ghc --make main.hs
 
 
 .PHONY: clean
