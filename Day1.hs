@@ -1,3 +1,6 @@
+#!/usr/bin/env nix-shell
+#!nix-shell --pure -i runghc -p "haskellPackages.ghcWithPackages (pkgs: [ pkgs.turtle ])"
+
 module Day1 where
 
 -- Day 1
